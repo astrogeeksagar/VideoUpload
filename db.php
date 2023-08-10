@@ -19,7 +19,7 @@ class Database {
                 self::$con->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
             }
             catch (PDOException $s) {
-                // echo 'connection failed '.$s->getMessage();
+                 echo 'connection failed '.$s->getMessage();
                 die($s->getMessage());
             }
         }
