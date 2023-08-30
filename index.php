@@ -15,7 +15,7 @@
 
     require_once 'db.php';
 
-    // Connect to the database
+    // Connect to the database on
     $conn = Database::connect();
 
     // Handle the file upload
